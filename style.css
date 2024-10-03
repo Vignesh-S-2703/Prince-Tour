@@ -1,0 +1,825 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    height: 35px;
+    width: 100%;
+    background-color: #113261;
+}
+
+.top ul {
+    list-style: none;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top ul a {
+    text-decoration: none;
+    color: snow;
+}
+
+.top1 {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.182);
+}
+
+.top1 nav .logo {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1 nav .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.top1 nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.top1 nav ul {
+    list-style: none;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top1 nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.top1 nav .contact h3 {
+    width: 150px;
+    height: 30%;
+    text-align: center;
+}
+
+.top1 nav .contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+}
+
+.top1 nav ul a:hover {
+    border-bottom: 3px solid #113261;
+    padding: 0px 0px 20px 0px;
+}
+
+.top1 .burger {
+    display: none;
+}
+.package{
+    position: absolute;
+    top: 120%;
+    left: 5%;
+}
+.tour{
+    margin-top: 15%;
+}
+.box {
+    display: grid;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    gap: 10px;
+}
+
+.tour .box .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 180px);
+    gap: 20px;
+}
+
+.boxes {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url(image8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+    grid-row: span 2;
+    background-image: url(image3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    grid-row: span 5;
+    background-image: url(image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 {
+    grid-row: span 5;
+    background-image: url(image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box5 {
+    grid-row: span 5;
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1 span{
+    font-size: 1.9rem;
+    background-color: rgba(255, 255, 255, 0.385);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    color: black;
+}
+.box1 a{
+    text-decoration: none;
+}
+.box2 span{
+    font-size: 1.9rem;
+    background-color: rgba(255, 255, 255, 0.385);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    color: black;
+}
+.box2 a{
+    text-decoration: none;
+}
+.box3 span{
+    font-size: 1.9rem;
+    background-color: rgba(255, 255, 255, 0.385);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    color: black;
+}
+.box3 a{
+    text-decoration: none;
+}
+.box4 span{
+    font-size: 1.9rem;
+    background-color: rgba(255, 255, 255, 0.385);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    color: black;
+}
+.box4 a{
+    text-decoration: none;
+}
+.box5 span{
+    font-size: 1.9rem;
+    background-color: rgba(255, 255, 255, 0.385);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    color: black;
+}
+.box5 a{
+    text-decoration: none;
+}
+
+.local {
+    position: absolute;
+    left: 5%;
+    top: 250%;
+}
+
+.tours {
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    top: 265%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box6 {
+    height: 240px;
+    width: 340px;
+    background: url(box6.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box7 {
+    height: 240px;
+    width: 340px;
+    background: url(box7.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box8 {
+    height: 240px;
+    width: 340px;
+    background: url(box8.jpg)no-repeat;
+    background-size: cover;
+}
+
+
+.top2 {
+    width: 100%;
+    height: 90vh;
+    background: url(topimage.jpg)no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.top2 img {
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 1%;
+    animation-name: plane;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plane {
+    from {
+        height: 100px;
+    }
+
+    to {
+        height: 220px;
+        transform: rotate(-40deg) translateX(1400px);
+    }
+}
+
+.para {
+    position: absolute;
+    top: 317%;
+    left: 5%;
+
+}
+
+.para p {
+    width: 90%;
+    height: 50%;
+    font-size: 19px;
+}
+
+.premium h1 {
+    position: absolute;
+    top: 360%;
+    left: 5%;
+}
+
+.premium .premium1 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 375%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box9 {
+    height: 380px;
+    width: 220px;
+    background: url(box9.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box10 {
+    height: 380px;
+    width: 220px;
+    background: url(box10.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box11 {
+    height: 380px;
+    width: 220px;
+    background: url(box11.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box12 {
+    height: 380px;
+    width: 220px;
+    background: url(box12.jpg)no-repeat;
+    background-size: cover;
+}
+.boxs {
+    transition: all 1s;
+}
+
+.boxs:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.premium button {
+    position: absolute;
+    top: 440%;
+    left: 40%;
+    height: 40px;
+    width: 220px;
+    font-size: 1.2rem;
+    background-color: #113261;
+    border: transparent;
+}
+
+.premium button a {
+    color: white;
+}
+
+.premium button:hover {
+    background-color: #b31a79;
+    cursor: pointer;
+}
+
+.blog h1 {
+    position: absolute;
+    top: 462%;
+    left: 5%;
+}
+
+.blog .blog1 {
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    top: 475%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box13 {
+    height: 240px;
+    width: 340px;
+    background: url(box13.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box14 {
+    height: 240px;
+    width: 340px;
+    background: url(box14.jpg)no-repeat;
+    background-size: cover;
+}
+
+.box15 {
+    height: 240px;
+    width: 340px;
+    background: url(box15.jpg)no-repeat;
+    background-size: cover;
+}
+
+.blo {
+    transition: all 1s;
+}
+
+.blo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.blog button {
+    position: absolute;
+    top: 525%;
+    left: 42%;
+    height: 40px;
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: #113261;
+    border: transparent;
+}
+
+.blog button a {
+    color: white;
+}
+
+.blog button:hover {
+    background-color: #b31a79;
+    cursor: pointer;
+}
+
+.footer{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 543%;
+}
+.footer1{
+    margin-top: 70px;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f1{
+    color: white;
+    margin-left: 5%;
+}
+.f1 h2{
+    width: 180px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f2{
+    color: white;
+    margin-left: 5%;
+}
+.f2 h2{
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f2 li{
+    list-style: none;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.f3{
+    color: white;
+    margin-left: 5%;
+}
+.f3 h2{
+    width: 90px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f4{
+    color: white;
+    margin-left: 1%;
+}
+.f4 h2{
+    width: 105px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f5{
+    color: white;
+    margin-left: 1%;
+}
+.f5 h2{
+    width: 113px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f5 a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.copy {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* @media all and (max-width: 1024px) {
+    .top1 nav .contact {
+        display: none;
+    }
+
+    .top1 nav {
+        font-size: 13px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: -44.3%;
+    }
+
+    .top2 h2 {
+        position: absolute;
+        top: 33%;
+        font-style: italic;
+        width: 600px;
+        color: white;
+    }
+
+    .top2 input {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+    }
+
+    .top2 button {
+        position: absolute;
+        top: 48%;
+        left: 40%;
+    }
+
+    .tour .box2,
+    .box0 {
+        display: none;
+    }
+
+    .button button {
+        display: none;
+    }
+
+    .local {
+        position: absolute;
+        top: 155%;
+        left: 7%;
+    }
+
+    .tours {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 165%;
+    }
+
+    .tours .boxs {
+        width: 450px;
+        height: 100%;
+    }
+
+    .para {
+        position: absolute;
+        top: 235%;
+    }
+
+    .para p {
+        font-size: 20px;
+    }
+
+    .premium h1 {
+        position: absolute;
+        top: 270%;
+    }
+
+    .premium .premium1 {
+        position: absolute;
+        top: 277%;
+    }
+
+    .premium .box11 {
+        display: none;
+    }
+
+    .premium button {
+        position: absolute;
+        top: 310%;
+        left: 40%;
+    }
+
+    .login img {
+        display: none;
+    }
+
+    .login h2 {
+        position: absolute;
+        top: 325%;
+        left: 9%;
+    }
+
+    .login .login1 {
+        position: absolute;
+        top: 330%;
+        left: 9%;
+    }
+
+    .login .loginpage {
+        position: absolute;
+        top: 325%;
+        left: 50%;
+    }
+
+    .blog h1 {
+        position: absolute;
+        top: 370%;
+    }
+
+    .blog .blog1 {
+        height: 800px;
+        width: 100%;
+        position: absolute;
+        top: 377%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog button {
+        position: absolute;
+        top: 440%;
+        left: 40%;
+    }
+
+    .footer {
+        position: absolute;
+        top: 450%;
+    }
+
+    .footer .footer2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-left: 2%;
+    }
+
+    .copy {
+        display: none;
+    }
+
+} */
+
+@media all and (max-width: 576px) {
+    .top {
+        display: none;
+    }
+
+    .top1 nav ul li {
+        display: none;
+    }
+
+    .top1 nav .logo {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        left: 2%;
+        top: 1%;
+    }
+
+    .top1 nav .contact {
+        display: none;
+    }
+    .top1 .burger {
+        position: absolute;
+        top: 20px;
+        left: 270px;
+        display: block;
+    }
+    .top2{
+        background: url(media.jpg)no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .top2 img {
+        height: 50px;
+        margin-top: 55%;
+        margin-left: 1%;
+        animation-name: plane;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes plane {
+        from {
+            height: 80px;
+        }
+    
+        to {
+            height: 150px;
+            transform: rotate(-40deg) translateX(300px);
+        }
+    }
+    .package{
+        display: none;
+    }
+    .tour .box .grid{
+        display: none;
+    }
+    .local {
+        position: absolute;
+        top: 110%;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    .tours {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        justify-content: space-evenly;
+        width: 100%;
+        position: absolute;
+        top: 126%;
+    }
+
+    .para {
+        position: absolute;
+        top: 260%;
+    }
+    .para p{
+        font-size: 17px;
+    }
+
+    .premium h1 {
+        position: absolute;
+        top: 360%;
+    }
+
+    .premium .premium1 {
+        position: absolute;
+        top: 375%;
+        display: flex;
+        width: 100%;
+        height: 500px;
+        justify-content: space-evenly;
+    }
+
+    .premium1 .box10, .box11,
+    .box12 {
+        display: none;
+    }
+
+    .premium button {
+        position: absolute;
+        top: 440%;
+        left: 20%;
+    }
+
+    .blog h1 {
+        position: absolute;
+        top: 455%;
+    }
+
+    .blog .blog1 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 464%;
+        height: 1000px;
+        width: 100%;
+    }
+
+
+    .blog button {
+        position: absolute;
+        top: 610%;
+        left: 23%;
+    }
+
+    .footer {
+        position: absolute;
+        top: 630%;
+        height: 91vh;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+        width: 100%;
+    }
+    .f3{
+        margin-left: -9%;
+        margin-top: 25px;
+    }
+    .footer1 .f2{
+        display: none;
+    }
+    .copy{
+        display: none;
+    }
+}

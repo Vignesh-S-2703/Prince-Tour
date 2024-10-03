@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    height: 35px;
+    width: 100%;
+    background-color: #113261;
+}
+.top  ul{
+    list-style: none;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top ul a{
+    text-decoration: none;
+    color: snow;
+}
+.top1{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.182);
+}
+.top1 nav .logo{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top1 nav .logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.top1 nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+.top1 nav ul{
+    list-style: none;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top1 nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.top1 nav .contact h3{
+    width: 150px;
+    height: 30%;
+    text-align: center;
+}
+.top1 nav .contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+}
+.top1 nav ul a:hover{
+    border-bottom: 3px solid #113261;
+    padding: 0px 0px 20px 0px;
+}
+.top1 .burger{
+    display: none;
+}
+.top2{
+    background: url(ceuises.jpg)no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.box h1{
+    position: absolute;
+    top: 142%;
+}
+.box p{
+    position: absolute;
+    top: 155%;
+    width: 60%;
+}
+.box img{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 146%;
+    right: 5%;
+}
+.box1 h1{
+    position: absolute;
+    top: 198%;
+}
+.box1 p{
+    position: absolute;
+    top: 212%;
+    width: 60%;
+}
+.box1 img{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 218%;
+    right: 5%;
+}
+
+.footer{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 290%;
+}
+.footer1{
+    margin-top: 70px;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f1{
+    color: white;
+    margin-left: 5%;
+}
+.f1 h2{
+    width: 180px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f2{
+    color: white;
+    margin-left: 5%;
+}
+.f2 h2{
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f2 li{
+    list-style: none;
+    font-size: 16px;
+    height: 20px;
+    width: 100px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.f3{
+    color: white;
+    margin-left: 5%;
+}
+.f3 h2{
+    width: 90px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f4{
+    color: white;
+    margin-left: 1%;
+}
+.f4 h2{
+    width: 105px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f5{
+    color: white;
+    margin-left: 1%;
+}
+.f5 h2{
+    width: 113px;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 0px;
+}
+.f5 a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    font-size: 18px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media all and (max-width: 576px) {
+    .top {
+        display: none;
+    }
+
+    .top1 nav ul li {
+        display: none;
+    }
+
+    .top1 nav .logo {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        left: 2%;
+        top: 1%;
+    }
+
+    .top1 nav .contact {
+        display: none;
+    }
+    .top1 .burger {
+        position: absolute;
+        top: 20px;
+        left: 270px;
+        display: block;
+    }
+    .top2{
+        background: url(media1.jpg)no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .box h1{
+        position: absolute;
+        top: 125%;
+        left: 3%;
+    }
+    .box img{
+        position: absolute;
+        top: 140%;
+        left: 1%;
+        width: 95%;
+        height: 200px;
+    }
+    .box p{
+        position: absolute;
+        top: 175%;
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .box1 h1{
+        position: absolute;
+        top: 243%;
+        left: 3%;
+    }
+    .box1 img{
+        position: absolute;
+        top: 260%;
+        left: 1%;
+        width: 95%;
+        height: 200px;
+    }
+    .box1 p{
+        position: absolute;
+        top: 295%;
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer {
+        position: absolute;
+        top: 360%;
+        height: 91vh;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+        width: 100%;
+    }
+    .f3{
+        margin-left: -9%;
+        margin-top: 25px;
+    }
+    .footer1 .f2{
+        display: none;
+    }
+    .copy{
+        display: none;
+    }
+}
